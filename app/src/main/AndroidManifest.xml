@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.d3if3058.cvify">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CVify"
+        >
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:theme="@style/Theme.CVify"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- First page activity -->
+        <activity
+            android:name=".ui.activities.FirstPageActivity"
+            android:theme="@style/Theme.CVify"
+            android:exported="true">
+        </activity>
+
+        <!-- Second page activity -->
+        <activity
+            android:name=".ui.activities.SecondPageActivity"
+            android:theme="@style/Theme.CVify"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".ui.activities.HomeActivity"
+            android:theme="@style/Theme.CVify"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".ui.activities.CreateCVActivity"
+            android:theme="@style/Theme.CVify"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".ui.fragment.EducationFragment"
+            android:theme="@style/Theme.CVify"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+
+        <activity
+            android:name=".ui.fragment.ExperienceFragment"
+            android:theme="@style/Theme.CVify"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+
+        <activity
+            android:name=".ui.fragment.PersonalFragment"
+            android:theme="@style/Theme.CVify"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+
+        <activity
+            android:name=".ui.fragment.SkillFragment"
+            android:theme="@style/Theme.CVify"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+
+        <activity
+            android:name=".ui.activities.FinalCVActivity"
+            android:theme="@style/Theme.CVify"
+            android:exported="true">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

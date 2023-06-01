@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">CVify</string>
+
+    <!--    Splash Screen-->
+    <string name="splash_screen_01">Tak perlu repot lagi,
+        buat CV profesional dalam hitungan menit.</string>
+    <string name="splash_screen_02">Bergabunglah dengan
+        jutaan orang sukses dengan CV yang memukau.</string>
+
+    <!--    Login page-->
+    <string name="Login_page">Hello,Welcome Back!</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="register_page_link">Create Account</string>
+
+    <!--    Register Page-->
+    <string name="register_page">Create New Account</string>
+    <string name="have_account">Have an account?</string>
+    <string name="login_page_link">Login</string>
+
+    <!--    Home Page-->
+    <string name="toolbar_title_homepage">My Resume</string>
+    <string name="job_title_preview">Software Engineer</string>
+    <string name="date">20-05-2003</string>
+
+    <!--    Button Title-->
+    <string name="login_button_txt">Login</string>
+    <string name="create_account_button_txt">Create Account</string>
+    <string name="continue_button_txt">Continue</string>
+    <string name="get_started_button_txt">Get Started</string>
+    <string name="create_cv_button_txt">Create CV</string>
+    <string name="save_button_txt">Save</string>
+    <string name="bagikan">Bagikan</string>
+
+    <!--    Create CV Page-->
+    <string name="tool_bar_title_create_cv">Create CV</string>
+    <string name="enter_your_details">Enter Your Details</string>
+    <string name="personal_information_form_txt">Personal Information</string>
+    <string name="Education_form_txt">Education</string>
+    <string name="skills_form_txt">Skills</string>
+    <string name="experience_form_txt">Experience</string>
+
+    <!--    Final CV Page-->
+    <string name="final_cv_toolbar_title">Final CV</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="job_title">Job Title</string>
+    <string name="about_me">About Me</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="adress">Adress</string>
+    <string name="entry_year">Entry Year</string>
+    <string name="university">University Name</string>
+    <string name="major">Major</string>
+    <string name="skill_01">1st Skill</string>
+    <string name="skill_02">2nd Skill</string>
+    <string name="skill_03">3rd Skill</string>
+    <string name="skill_04">4th Skill</string>
+    <string name="job_name">Job Name</string>
+    <string name="position">Job Position</string>
+    <string name="date_job">Job Date</string>
+    <string name="job_description">Job Description</string>
+
+    <string name="contact">Contact</string>
+    <string name="to_second_page">to_second_page</string>
+    <string name="to_homepage">to_homepage</string>
+    <string name="lorem" />
+    <string name="first_page_image">first</string>
+
+    <!--    <string name="lorem">Lörem ipsum söligen stadsspret av pressade her nira rälingar.Nekyt avont. Trens medeldiktisk mysöns oaktat seling. Prere mysånade uns. Mikrogapp ningen epigusade som did som sende. </string>-->
+
+
+</resources>
